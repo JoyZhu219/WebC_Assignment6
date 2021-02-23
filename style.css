@@ -386,7 +386,7 @@ img {
 	width: auto;
 }
 #body.home .footer .icons {
-  color:#620031
+  color: #620031;
   display: inline;
   left:50%;
   transform: translate(-50%,-50%);
@@ -1652,7 +1652,7 @@ img {
 	margin: 0;
 	padding: 0;
 	/* text-indent: -99999px; */
-	width: 18px;
+	width: 28px;
 }
 #footer .connect div div a.facebook {
 	background-position: 0 0;
@@ -1718,4 +1718,8 @@ img {
 }
 #wix a img {
 	width: 100%;
+}
+
+.icon-width{
+	font-size:28px !important;
 }
