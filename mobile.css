@@ -26,8 +26,8 @@
 		width: 95%;
 	}
 	#body.home .header div img.machine{
-		left: -500px;
-		top: 100px;
+		left: -200px;
+    top: 100px;
 	}
 	#body.home .header div h1 {
 		float: none;

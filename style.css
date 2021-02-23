@@ -170,13 +170,14 @@ img {
 }
 #body.home .header div img.machine {
 	display: block;
-	left: 0px;
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	top: 41px;
-	width: auto;
-	z-index: 50;
+ left: -250px;
+ margin: 0;
+ padding: 0;
+ position: absolute;
+ top: 101px;
+ width: auto;
+ z-index: 50;
+
 }
 #body.home .header div h1 {
 	color: #FFFFFF;
@@ -364,7 +365,7 @@ img {
 	float: left;
 	margin: 0 10px;
 	padding: 0;
-	width: 460px;
+	width: 100%;
 }
 #body.home .footer div ul li {
 	float: left;
@@ -1077,6 +1078,19 @@ img {
 	padding: 0;
 	width: 380px;
 }
+
+.specialImg{
+	cursor: pointer;
+    filter: alpha(opacity=100);
+    opacity: 1.0;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: auto;
+	min-width: 400px;
+	padding-top: 20% !important;
+}
+
 #body .header div ul li a img {
 	cursor: pointer;
 	filter: alpha(opacity=100);/* Needed for IE8 and old versions */
@@ -1637,7 +1651,7 @@ img {
 	height: 36px;
 	margin: 0;
 	padding: 0;
-	text-indent: -99999px;
+	/* text-indent: -99999px; */
 	width: 18px;
 }
 #footer .connect div div a.facebook {
